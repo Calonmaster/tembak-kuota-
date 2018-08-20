@@ -53,18 +53,19 @@ calon master=(gt+"""
 #  #   #  #    #############    ##########      #       ########## #   #
 #   # #   #   #             #            #      #       #          #    #
 #    #    #  #               # ###########      #       ########## #     #
+===========================================================================
 """)
 l="Harap tunggu.."
 
 def main_menu():
     clear()
-    slowprints(semut)
+    slowprints(calon master)
     print(p+"Telkomsel Menu" +
         "\nPilih Salah Satu:"
         "\n  [1] Minta kode otp" + 
         "\n  [2] coming soon" 
     )
-    choice = str(input(" ex:1👉 "))
+    choice = str(input(" ex:1➡ "))
     exec_menu(choice)
     return
 
